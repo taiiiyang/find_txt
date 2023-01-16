@@ -51,8 +51,6 @@ impl<'a> FileInfo<'a> {
     }
 }
 
-
-
 // change contents
 // 核心操作
 fn find_readme_core(dir: &Path, contents: &mut String, target_file_name: &Path) {
